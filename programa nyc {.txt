@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+
+    real A
+    real B
+    real C
+    real Delta
+
+    escreva("digite  o valor de a: ")
+    leia(A)
+
+    escreva("digite o valor de b: ")
+    leia(B)
+
+    escreva("digite o valor de c: ")
+    leia(C)
+
+    Delta = (B*B) - (4*A*C)
+
+    escreva("delta = ", Delta)
+
+
+
+  }
+}
